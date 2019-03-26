@@ -1,4 +1,4 @@
-# Team apps Oauth2 spring boot server
+# Team apps authentication server
 
 ## Team apps
 
