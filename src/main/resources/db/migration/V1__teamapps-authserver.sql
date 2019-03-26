@@ -49,29 +49,10 @@ create table teamapps."user"
   roles      varchar(255)                                                not null
 );
 
-insert into teamapps.user(email, login, first_name, last_name, picture, password, roles)
-values ('a.mihai@oodrive.com', 'a.mihai', 'Mihai', 'Alexandru', null,
-        '$2a$10$xjANLFsc5FZbzw3A8X34geZE4wQLG7U4jkReE4zwPd27vf5ss6uY.', 'ROLE_USER'),
-       ('p.prihor@oodrive.com', 'p.prihor', 'Prihor', 'Paul', null,
-        '$2a$10$xjANLFsc5FZbzw3A8X34geZE4wQLG7U4jkReE4zwPd27vf5ss6uY.', 'ROLE_USER'),
-       ('b.ungureanu@oodrive.com', 'b.ungureanu', 'Ungureanu', 'Bogdan', null,
-        '$2a$10$xjANLFsc5FZbzw3A8X34geZE4wQLG7U4jkReE4zwPd27vf5ss6uY.', 'ROLE_USER'),
-       ('c.unguru@oodrive.com', 'c.unguru', 'Unguru', 'Claudiu', null,
-        '$2a$10$xjANLFsc5FZbzw3A8X34geZE4wQLG7U4jkReE4zwPd27vf5ss6uY.', 'ROLE_USER'),
-       ('a.aioanei@oodrive.com', 'a.aioanei', 'Aioanei', 'Andre', null,
-        '$2a$10$xjANLFsc5FZbzw3A8X34geZE4wQLG7U4jkReE4zwPd27vf5ss6uY.', 'ROLE_USER'),
-       ('m.gheorghe@oodrive.com', 'm.gheorghe', 'Gheorghe', 'Mihaela', null,
-        '$2a$10$xjANLFsc5FZbzw3A8X34geZE4wQLG7U4jkReE4zwPd27vf5ss6uY.', 'ROLE_USER'),
-       ('a.parascuta@oodrive.com', 'a.parascuta', 'Parascuta', 'Adina', null,
-        '$2a$10$xjANLFsc5FZbzw3A8X34geZE4wQLG7U4jkReE4zwPd27vf5ss6uY.', 'ROLE_USER'),
-       ('l.iordan@oodrive.com', 'l.iordan', 'Iordan', 'Laura', null,
-        '$2a$10$xjANLFsc5FZbzw3A8X34geZE4wQLG7U4jkReE4zwPd27vf5ss6uY.', 'ROLE_USER'),
-       ('m.roman@oodrive.com', 'm.roman', 'Roman', 'Maria', null,
-        '$2a$10$xjANLFsc5FZbzw3A8X34geZE4wQLG7U4jkReE4zwPd27vf5ss6uY.', 'ROLE_USER'),
-       ('v.moisuc@oodrive.com', 'v.moisuc', 'Moisuc', 'Vlad', null,
-        '$2a$10$xjANLFsc5FZbzw3A8X34geZE4wQLG7U4jkReE4zwPd27vf5ss6uY.', 'ROLE_USER'),
-       ('b.prisecaru@oodrive.com', 'p.prisecaru', 'Prisecaru', 'Bogdan', null,
-        '$2a$10$xjANLFsc5FZbzw3A8X34geZE4wQLG7U4jkReE4zwPd27vf5ss6uY.', 'ROLE_USER');
+--User bycrypt with 10 rounds to encrypt your passowrd.
+--insert into teamapps.user(email, login, first_name, last_name, picture, password, roles)
+--values ('jhondoe@anemail.com', 'jhondoe', 'jhon', 'doe', null,
+--        '$2a$10$xjANLFsc5FZbzw3A8X34geZE4wQLG7U4jkReE4zwPd27vf5ss6uY.', 'ROLE_USER');
 
 
 
