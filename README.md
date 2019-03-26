@@ -8,8 +8,8 @@ The applications can be various and are solely developed for fun amongst the tea
 
 First app I've developed is a simple milk management app. It's focus is to manage who buys milk for coffe in the office :). You can check it out here:
 
-- Milk service (Backend):
-- Milk front end:
+- Milk service (Backend): https://github.com/Slidem/team-apps-milk-service
+- Milk front end: https://github.com/Slidem/team-apps-milk-front
 
 ## The authentication server
 
